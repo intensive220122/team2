@@ -1,0 +1,75 @@
+<div class="question1" style="width: 700px; font-size: 20; background-color: #ff0000; margin-left: 500px;">
+	<img src="12.jpg" style="width:700px;">
+	<h1>Какое имя у брата Гамбола?</h1>
+	<div class="variant1"style="background-color: #ffb5e6; font-size: 25px; height: 88px;">Ричард</div>
+	<div class="variant2" style="background-color: #ff4800; font-size: 25px; height: 88px;">Дарвин</div>
+	<div class="variant3" style="background-color: #0015ff; font-size: 25px; height: 88px;">Боберт</div>
+</div>
+<div class="question2" style="width: 700px; margin-top: 20px; font-size: 20; background-color: #ff0000; margin-left: 500px;display: none;">
+	<img src="13.jpg" style="width:700px;">
+	<h1>По какому телеканалу транслируют У.М.Г.?</h1>
+	<div class="variant1" style="background-color: #a200ff; font-size: 25px; height: 88px;">Cartoon Network</div>
+	<div class="variant2" style="background-color: #ff9100; font-size: 25px; height: 88px;">Nickelodeon</div>
+	<div class="variant3" style="background-color: #00a2ff; font-size: 25px; height: 88px;">Карусель</div>
+</div>
+<div class="question3" style="width: 700px; margin-top: 20px; background-color:red; margin-left: 500px;display: none;">
+ 	<img src="9.jpg" style="width: 700px;" />
+ 	<h1>как зовут заклятого врага габмола?</h1>
+ 	<div class="variant1" style="background-color: blue; height: 88px;font-size: 25px;">Алан</div>
+ 	<div class="variant2" style="background-color: purple; height: 88px;font-size: 25px;">Роб</div>
+ 	<div class="variant3" style="background-color: green; height: 88px;font-size: 25px;">Тобияс</div>
+</div>
+<div class="question4" style="width: 700px; margin-top: 20px; background-color:blue; margin-left: 500px;display: none;">
+	<img src="14.jpg" style="width: 700px;" />
+    <h1>кто самый глупый из семьи гамбола?</h1>
+	<div class="variant1" style="background-color: pink; font-size: 25px; height: 88px;">Дарвин</div>
+	<div class="variant2" style="background-color: blue; font-size: 25px; height: 88px;">Ричард</div>
+	<div class="variant3" style="background-color: red; font-size: 25px; height: 88px;">Гамбол</div>
+</div>
+<div class="question5" style="width: 700px; background-color: #ff6969; margin-top: 20px; margin-left: 500px;display: none;">
+ 	<h1>где здесь вступительная песня из У.М.Г</h1>
+ 	<div class="variant1" style="background-color: #ff0000; width: 700px;">
+  		<iframe frameborder="0" style="border:none;width:95%;height:180px;" width="100%" height="180" src="https://music.yandex.ru/iframe/#track/80873377/14867933"></iframe>
+ 	</div>
+	<div class="variant2" style="background-color: #00ff5e;">
+		<iframe frameborder="0" style="border:none;width:95%;height:180px;" width="100%" height="180" src="https://music.yandex.ru/iframe/#track/64215884/10287925"></iframe>
+	</div>
+	<div class="variant3" style="background-color: #d4ff00;">
+		<iframe frameborder="0" style="border:none;width:95%;height:180px;" width="100%" height="180" src="https://music.yandex.ru/iframe/#track/94289539/19093801"></iframe>
+	</div>
+</div>
+<div class="question6" style="width: 700px; font-size: 20; background-color: #0015ff; margin-left: 500px; margin-top: 20px;display: none;">
+	<img src="15.jpg" style="width: 700px;">
+	<h1>На какой сцене гамбол дерётся с Робом?</h1>
+	<div class="variant1" style="background-color: #00fff2;"><iframe style="margin-left: 20px;" width="650" height="250" src="https://www.youtube.com/embed/PRlzcEwWdm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>	
+	<div class="variant2" style="background-color: #00ff91;"><iframe style="margin-left: 20px;" width="650" height="250" src="https://www.youtube.com/embed/X-kNQZQLslo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+	<div class="variant3" style="background-color: #ffff00;"><iframe style="margin-left: 20px;" width="650" height="250" src="https://www.youtube.com/embed/fwKBTWat-TM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div>
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+
+<script>
+	find("question1 variant2").click("show","question2")
+	find("question1 variant1").click("alert","нет ошибка!")
+	find("question1 variant3").click("alert","нет ошибка!")
+
+
+	find("question2 variant1").click("show","question3")
+	find("question2 variant2").click("alert","нет ошибка!")
+ 	find("question2 variant3").click("alert","нет ошибка!")
+
+ 	find("question3 variant2").click("show","question4")
+	find("question3 variant1").click("alert","нет ошибка!")
+ 	find("question3 variant3").click("alert","нет ошибка!")
+
+ 	find("question4 variant2").click("show","question5")
+	find("question4 variant1").click("alert","нет ошибка!")
+ 	find("question4 variant3").click("alert","нет ошибка!")
+
+ 	find("question5 variant1").click("show","question6")
+	find("question5 variant2").click("alert","нет ошибка!")
+ 	find("question5 variant3").click("alert","нет ошибка!")
+
+ 	find("question6 variant3").click("alert","WIN!")
+	find("question6 variant1").click("alert","нет ошибка!")
+ 	find("question6 variant2").click("alert","нет ошибка!")
+</script>
